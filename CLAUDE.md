@@ -77,6 +77,17 @@ project-name/
 - Update progress document after each phase
 - Write `CLAUDE.md` to capture project context and key design decisions
 
+## Documentation Maintenance
+
+After completing each feature or phase, always update related documents:
+
+1. `docs/project-progress.md` — Update phase status, add completed items
+2. `docs/product-design.md` — Add new features to feature list, sync design changes
+3. `docs/tech-architecture.md` — Sync new modules, tech stack changes, storage path changes
+4. `CLAUDE.md` — Add new design decisions, commands, storage paths
+5. Remove outdated content — Deprecated approaches, removed features, obsolete descriptions should be deleted, not commented out
+6. Documentation updates and code changes should be in the same commit
+
 ## General Development Standards
 
 - Default language: English (UI, code comments, error messages, variable names)
